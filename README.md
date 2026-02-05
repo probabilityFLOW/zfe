@@ -1,5 +1,10 @@
 # Zero-Flow Encoders
 
+The implementation of [Zero-Flow Encoders](https://arxiv.org/abs/2602.00797)
+
+## Abstract
+Flow-based methods have achieved significant success in various generative modeling tasks, capturing nuanced details within complex data distributions. However, few existing works have exploited this unique capability to resolve fine-grained structural details beyond generation tasks. This paper presents a flow-inspired framework for representation learning. First, we demonstrate that a rectified flow trained using independent coupling is zero everywhere at $t = 0.5$ if and only if the source and target distributions are identical. We term this property the $\emph{zero-flow criterion}$. Second, we show that this criterion can certify conditional independence, thereby extracting $\emph{sufficient information}$ from the data. Third, we translate this criterion into a tractable, simulation-free loss function that enables learning amortized Markov blankets in graphical models and latent representations in self-supervised learning tasks. Experiments on both simulated and real-world datasets demonstrate the effectiveness of our approach.
+
 ## Prerequisites
 
 Before you begin, ensure you have met the following requirements:
