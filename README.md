@@ -1,5 +1,8 @@
 # Zero-Flow Encoders
 
+[![Paper](https://img.shields.io/badge/paper-arXiv:2602.00797-B31B1B.svg)](https://arxiv.org/abs/2602.00797)
+
+
 The implementation of [Zero-Flow Encoders](https://arxiv.org/abs/2602.00797)
 
 ## Abstract
@@ -73,3 +76,16 @@ cd ./mae_shortcut/
 bash script.sh
 ```
 Then you can run tasks (e.g. `lin_probe.ipynb`) in the folder.
+
+## Citation
+
+If you find our paper, code, and/or data useful for your research, please cite our paper:
+
+```
+@article{wang2026zero,
+      title={Zero-Flow Encoders}, 
+      author={Yakun Wang and Leyang Wang and Song Liu and Taiji Suzuki},
+      journal={arXiv preprint arXiv:2602.00797},
+      year={2026},
+}
+```
